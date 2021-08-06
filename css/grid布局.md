@@ -45,6 +45,7 @@ Grid网格布局
 
 ## 2. 行和列
 容器里面的水平区域称为`行`(row), 垂直区域称为`列`(column)
+
 ![](https://www.wangbase.com/blogimg/asset/201903/1_bg2019032502.png)
 
 ## 3. 单元格
@@ -92,6 +93,7 @@ Grid布局的属性分为两类. 一类定义在容器上面, 称为容器属性
 }
 ```
 以上代码指定了一个3行3列的网格,列宽和行高都是100px, 如下图所示
+
 ![](https://files.catbox.moe/lf5v9t.png)
 
 除了使用绝对单位, 也可以使用百分比.
@@ -130,6 +132,7 @@ grid-template-columns: repeat(2, 100px 20px 80px)
 }
 ```
 以上代码表示每一列单元格的宽度为100px, 然后自动填充, 知道容器不能放置更多的列
+
 ![](https://files.catbox.moe/uzqe0f.png)
 
 ### (3) fr关键字
@@ -202,8 +205,8 @@ grid-template-columns: repeat(12, 1fr);
 }
 ```
 以上代码设置了行列的间隔为20px , 也可以缩写为`gap: 20px 20px`(`<row-gap> <column-gap>`)或`gap: 20px`
-![](https://files.catbox.moe/qebdtl.png)
 
+![](https://files.catbox.moe/qebdtl.png)
 
 ## 4. `grid-template-areas`属性
 网格布局允许指定区域(area), 一个区域由单个或多个单元格组成.
